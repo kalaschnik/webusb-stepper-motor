@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:leonardo",
+    "port": "/dev/tty.usbmodem143301",
+    "programmer": "arduino:avrispmkii",
+    "sketch": "stepper-motor-debugging.ino"
+}
