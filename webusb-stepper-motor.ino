@@ -28,10 +28,12 @@ boolean newData = false;
 void setup()
 {
   Serial.begin(9600);
+  // while the serial stream is not open, do nothing:
+  while (!Serial)
+    ;
   Serial.println("This demo expects 4 pieces of data; motor speed, motor steps, motor direction, motor style");
   Serial.println("Motor Direction: 1 (FORWARD) or 2 (BACKWARD) - Style: 1 (SINGLE), 2 (DOUBLE), 3 (INTERLEAVE), 4 (MICROSTEP)");
   Serial.println("Enter data in this style <10, 20, 1, 1>");
-  Serial.println();
 
   AFMS.begin(); // create with the default frequency 1.6KHz
 }
