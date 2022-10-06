@@ -3,6 +3,8 @@
 > Based on https://github.com/kalaschnik/stepper-motor-debugging
 >
 > 💡 As of fall 2022, WebUSB is still Chromium-only thing: https://caniuse.com/webusb
+>
+> 💡 To make Arduino IDE WebUSB-ready, follow the instructions here: https://github.com/webusb/arduino
 
 # Usage
 
@@ -80,5 +82,5 @@ navigator.usb.requestDevice({ filters: [{}] }).then((device) => {
 
 # Resources
 
-Spec: https://wicg.github.io/webusb/
-Arduino w/ compatible Hardware (Processors are ATmega32U4 or SAMD21): - https://github.com/webusb/arduino
+- Spec: https://wicg.github.io/webusb/
+- Arduino w/ compatible Hardware (Processors are ATmega32U4 or SAMD21): https://github.com/webusb/arduino
