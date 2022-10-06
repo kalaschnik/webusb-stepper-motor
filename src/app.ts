@@ -1,4 +1,8 @@
+import { serial } from './serial.js';
+
 console.log('Starting app');
+
+console.log('Imported serial.js', serial);
 
 const link = document.getElementById('connection')! as HTMLAnchorElement;
 
