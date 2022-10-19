@@ -1,4 +1,4 @@
-export const serial = {};
+var serial = {};
 
 (function () {
 	'use strict';
