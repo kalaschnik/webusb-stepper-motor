@@ -19,8 +19,5 @@
   "bugs": {
     "url": "https://github.com/kalaschnik/webusb-stepper-motor/issues"
   },
-  "homepage": "https://github.com/kalaschnik/webusb-stepper-motor#readme",
-  "devDependencies": {
-    "@types/w3c-web-usb": "^1.0.6"
-  }
+  "homepage": "https://github.com/kalaschnik/webusb-stepper-motor#readme"
 }
