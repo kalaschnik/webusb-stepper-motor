@@ -50,3 +50,10 @@ select {
 #wrapper {
 	margin: 20px;
 }
+
+input[type='number'] {
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	padding: 0.5em;
+	width: 15ch;
+}
