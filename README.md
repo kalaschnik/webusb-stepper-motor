@@ -6,7 +6,14 @@
 >
 > 💡 To make Arduino IDE WebUSB-ready, follow the instructions here: https://github.com/webusb/arduino
 
-# Usage
+# Demos
+
+## Stepper Motor Demo
+
+1. Upload [webusb-stepper-motor.ino](/src/webusb-stepper-motor/webusb-stepper-motor.ino) to your [WebUSB-enabled device](#resources)
+2. Go to https://ccp-odc.eva.mpg.de/webusb/
+3. Click Connect and select your device
+4. Follow the UI
 
 This script uses the _Arduino Serial Monitor_ to receive an input to dynamically control different parameters of a stepper motor. This **parameters** are:
 
@@ -21,6 +28,13 @@ Example Input: `<10, 20, 1, 1>` which translates to:
 - Perform 20 Steps
 - Move FORWARD
 - in SINGLE steps
+
+## LED Demo
+
+1. Upload [led-demo.ino](/src/led-demo/led-demo.ino) to your [WebUSB-enabled device](#resources)
+2. Go to https://ccp-odc.eva.mpg.de/webusb/
+3. Click Connect and select your device
+4. Follow the UI
 
 # Development
 
