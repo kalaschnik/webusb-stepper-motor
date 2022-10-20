@@ -5,9 +5,15 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>WebUSB Stepper Motor Debugging</title>
-		<script defer src="../dist/app.js" type="module"></script>
+		<script defer src="./serial.js"></script>
+		<script defer src="./app.js"></script>
 	</head>
 	<body>
-		<a href="#" id="connection">Connect me to the USB device</a>
+		<a href="#" id="all-devices">Show all devices popup</a> •
+		<a href="#" id="connection">Connect</a>
+		<p>
+			<button id="high" type="button">High</button>
+			<button id="low" type="button">Low</button>
+		</p>
 	</body>
 </html>
