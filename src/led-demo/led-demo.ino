@@ -1,5 +1,5 @@
 #include <WebUSB.h>
-WebUSB WebUSBSerial(1, "127.0.0.1:5500/src/");
+WebUSB WebUSBSerial(1, "https://ccp-odc.eva.mpg.de/webusb/");
 
 const int ledPin = 13;
 
