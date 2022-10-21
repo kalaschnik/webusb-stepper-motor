@@ -2,13 +2,19 @@
 
 > Based on https://github.com/kalaschnik/stepper-motor-debugging
 >
-> 💡 As of fall 2022, WebUSB is still Chromium-only thing: https://caniuse.com/webusb
+> 💡 As of fall 2022, WebUSB is still Chromium-only thing: https://caniuse.com/webusb — But it also works an Chrome for Android on your phone/tablet!
 >
 > 💡 To make Arduino IDE WebUSB-ready, follow the instructions here: https://github.com/webusb/arduino
 
 # Demos
 
 ## Stepper Motor Demo
+
+
+
+https://user-images.githubusercontent.com/9831678/197196978-e85834dd-4a2c-4367-b6c6-197893818062.mp4
+
+
 
 1. Upload [webusb-stepper-motor.ino](/src/webusb-stepper-motor/webusb-stepper-motor.ino) to your [WebUSB-enabled device](#resources)
 2. Go to https://ccp-odc.eva.mpg.de/webusb/
