@@ -15,7 +15,7 @@
 		<div id="wrapper">
 			<h1>WebUSB Demos</h1>
 			<h2>Connect Device</h2>
-			<a href="#" id="connection"><strong>Connect</strong></a> •
+			<a href="#" id="connection"><strong>CONNECT</strong></a> •
 			<a href="#" id="all-devices"><small>Show all devices popup</small></a>
 			<hr />
 			<h3>Stepper Motor Demo</h3>
@@ -26,8 +26,9 @@
 				</mark>
 			</p>
 			<br />
-			<form>
-				<label for="speed">Motor Speed (RPM):</label><br />
+			<form id="stepper-form">
+				<label for="speed"><strong>Motor Speed (RPM)</strong></label
+				><br />
 				<input
 					type="number"
 					id="speed"
@@ -38,7 +39,8 @@
 					max="100"
 					value="10"
 				/><br />
-				<label for="steps">Motor Steps:</label><br />
+				<label for="steps"><strong>Motor Steps</strong></label
+				><br />
 				<input
 					type="number"
 					id="steps"
@@ -49,19 +51,59 @@
 					max="20000"
 					value="200"
 				/><br />
-				Motor Direction:<br />
-				<input type="radio" checked id="direction-forward" name="direction" />
+				<label for="direction"><strong>Motor Direction</strong></label
+				><br />
+				<input
+					type="radio"
+					id="direction-forward"
+					checked
+					title="Forward"
+					name="direction"
+					value="forward"
+				/>
 				<label for="direction-forward">Forward</label><br />
-				<input type="radio" id="direction-backward" name="direction" />
+				<input
+					type="radio"
+					id="direction-backward"
+					title="Backward"
+					name="direction"
+					value="backward"
+				/>
 				<label for="direction-backward">Backward</label><br />
-				Motor Style:<br />
-				<input type="radio" checked id="style-single" name="style" />
+				<label for="style"><strong>Motor Style</strong></label
+				><br />
+				<input
+					type="radio"
+					id="style-single"
+					checked
+					title="Single"
+					name="style"
+					value="single"
+				/>
 				<label for="style-single">Single</label><br />
-				<input type="radio" id="style-double" name="style" />
+				<input
+					type="radio"
+					id="style-double"
+					title="Double"
+					name="style"
+					value="double"
+				/>
 				<label for="style-double">Double</label><br />
-				<input type="radio" id="style-interleave" name="style" />
+				<input
+					type="radio"
+					id="style-interleave"
+					title="Interleave"
+					name="style"
+					value="interleave"
+				/>
 				<label for="style-interleave">Interleave</label><br />
-				<input type="radio" id="style-microstep" name="style" />
+				<input
+					type="radio"
+					id="style-microstep"
+					title="Microstep"
+					name="style"
+					value="microstep"
+				/>
 				<label for="style-microstep">Microstep</label><br />
 				<input type="submit" value="Send" />
 			</form>
