@@ -1,6 +1,6 @@
 # Debug and Test Stepper Motors for WebUSB-enabled devices
 
-> Based on https://github.com/kalaschnik/stepper-motor-debugging
+> Stepper Motor example is based on https://github.com/kalaschnik/stepper-motor-debugging
 >
 > 💡 As of fall 2022, WebUSB is still Chromium-only thing: https://caniuse.com/webusb — But it also works an Chrome for Android on your phone/tablet!
 >
@@ -10,30 +10,12 @@
 
 ## Stepper Motor Demo
 
-
-
 https://user-images.githubusercontent.com/9831678/197196978-e85834dd-4a2c-4367-b6c6-197893818062.mp4
-
-
 
 1. Upload [webusb-stepper-motor.ino](/src/webusb-stepper-motor/webusb-stepper-motor.ino) to your [WebUSB-enabled device](#resources)
 2. Go to https://ccp-odc.eva.mpg.de/webusb/
 3. Click Connect and select your device
 4. Follow the UI
-
-This script uses the _Arduino Serial Monitor_ to receive an input to dynamically control different parameters of a stepper motor. This **parameters** are:
-
-- Motor Speed (RPM)
-- Motor Steps
-- Motor Direction (either 1 (FORWARD) or 2 (BACKWARD))
-- Motor Style (either 1 (SINGLE), 2 (DOUBLE), 3 (INTERLEAVE), 4 (MICROSTEP))
-
-Example Input: `<10, 20, 1, 1>` which translates to:
-
-- Set Motor Speed to 10 RPM
-- Perform 20 Steps
-- Move FORWARD
-- in SINGLE steps
 
 ## LED Demo
 
