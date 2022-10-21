@@ -1,23 +1,23 @@
 {
-  "name": "webusb-stepper-motor",
-  "version": "1.0.0",
-  "description": "> Based on https://github.com/kalaschnik/stepper-motor-debugging",
-  "main": "index.js",
-  "directories": {
-    "doc": "docs"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/kalaschnik/webusb-stepper-motor.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/kalaschnik/webusb-stepper-motor/issues"
-  },
-  "homepage": "https://github.com/kalaschnik/webusb-stepper-motor#readme"
+	"name": "webusb-stepper-motor",
+	"version": "1.0.0",
+	"description": "> Based on https://github.com/kalaschnik/stepper-motor-debugging",
+	"main": "index.js",
+	"directories": {
+		"doc": "docs"
+	},
+	"scripts": {
+		"sync": "rsync -lptgoDvhz ./ ccp-odcJ:/srv/ccp-odc/webusb/"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/kalaschnik/webusb-stepper-motor.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/kalaschnik/webusb-stepper-motor/issues"
+	},
+	"homepage": "https://github.com/kalaschnik/webusb-stepper-motor#readme"
 }
